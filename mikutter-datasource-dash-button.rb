@@ -13,8 +13,8 @@ Plugin.create(:"mikutter-datasource-dash-button") {
         begin
           user = DashButtonUser.new_ifnecessary({
             :uri => URI.parse("dashbutton://singleton"),
-            :name => "Amazon Dash Button",
-            :idname => "Dashボタン",
+            :idname => "Amazon Dash Button",
+            :name => "Dashボタン",
             :profile_image_url => Skin["icon.png"].uri.path
           })
 
