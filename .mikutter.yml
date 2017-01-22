@@ -1,10 +1,10 @@
 ---
 slug: :mikutter-datasource-dash-button
 depends:
-  mikutter: 3.4.0
+  mikutter: 3.5.0
   plugin:
   - settings
-version: 0.1.1
+version: 0.2.1
 author: moguno
 name: mikutter-datasource-dash-button
 description: 'Amazon Dash Buttonに反応してメッセージを吐くデータソース'
